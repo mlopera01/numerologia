@@ -109,7 +109,7 @@ public class NumerogyServiceImplementation implements NumerologyService {
         return nm;
     }
 
-        //Esta función permite convertir un numero
+        //Esta función permite convertir un numero de dos caracteres a uno
         public Integer convertToOneDigit (Integer numeroRecibido){
             int suma = 0;
             int residuo;
